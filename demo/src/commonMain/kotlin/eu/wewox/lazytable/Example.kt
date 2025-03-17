@@ -22,4 +22,8 @@ enum class Example(
         "Pinned Items In Lazy Table",
         "Example how to setup pinned columns and rows"
     ),
+    LazyTableSort(
+        "Sort columns In Lazy Table",
+        "Example how to setup sorting of a column"
+    ),
 }

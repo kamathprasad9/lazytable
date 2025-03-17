@@ -8,6 +8,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import eu.wewox.lazytable.screens.LazyTablePinnedScreen
 import eu.wewox.lazytable.screens.LazyTableSimpleScreen
+import eu.wewox.lazytable.screens.LazyTableSortColumnScreen
 import eu.wewox.lazytable.screens.LazyTableStateScreen
 import eu.wewox.lazytable.ui.theme.LazyTableTheme
 
@@ -37,6 +38,7 @@ fun App(
                 Example.LazyTableSimple -> LazyTableSimpleScreen(reset)
                 Example.LazyTableState -> LazyTableStateScreen(reset)
                 Example.LazyTablePinned -> LazyTablePinnedScreen(reset)
+                Example.LazyTableSort -> LazyTableSortColumnScreen(reset)
             }
         }
     }

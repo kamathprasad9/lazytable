@@ -45,6 +45,7 @@ kotlin {
                 implementation(project(":lazytable"))
 
                 implementation(compose.material3)
+                implementation(compose.materialIconsExtended)
 
                 implementation(libs.ktor)
                 implementation(libs.ktor.content.negotiation)
